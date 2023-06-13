@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>EntlibDemo</id>
+    <version>1.0.0</version>
+    <title>Enterprise Library Demo</title>
+    <authors>Demo Author</authors>
+    <owners>Demo Author</owners>
+    <iconUrl>https://www.somewhere.com/demo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Contains demo references for Enterprise.</description>
+    <references>
+		<reference file="Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+		<reference file="Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll" />
+    </references>
+  </metadata>
+  <files>
+    <file src="entlib\Microsoft.Practices.EnterpriseLibrary.Data.dll" target="lib\" />
+    <file src="entlib\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll" target="lib\" />
+  </files>
+</package>
