@@ -112,4 +112,6 @@ Or you can use Visual Studio to add the nuget feed
 
 if the feed does not exist, click the + button and add the feed.
 
+You can then do the normal process of adding the package to your project. In this case I searched for entlibdemo.
+Be sure that package source is set to the feed you created. In my case it is entlibdemo
 ![Alt text](image-6.png)
